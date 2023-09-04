@@ -3,11 +3,46 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    /* padding-top: 3rem; */
+    /* padding-bottom: 3rem; */
     color: rgb(var(--bs-tertiary-color-rgb));
     font-family: 'Oswald', sans-serif;
   }
+
+  #home {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-position: center;     
+  }
+
+  #home{
+    height: 100vh;
+  }
+
+  #serviceTimes, #aboutUs, #leadership {
+    min-height: 100vh;
+  }
+
+  .aboutImg, .leadershipImg, .leadershipBox{
+    border-radius: 7px;
+  }
+
+  .aboutText {
+    font-size: 15pt;
+  }
+
+  
+
+  footer {
+    padding: 50px;
+    margin: 0;
+  }
+
+  footer > p {
+    margin: 0;
+  }
+  
+
   
   
   /* CUSTOMIZE THE CAROUSEL
@@ -16,9 +51,9 @@ body {
   /* Carousel base class */
   .carousel {
     margin-bottom: 4rem;
-    background-image: url(/img/background.jpg);
-    background-size: cover;
-    background-position: center;    
+    height: 100%;
+    background: rgba(45, 45, 45, 0.65);
+       
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -28,8 +63,8 @@ body {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
-    background-color:rgba(45, 45, 45, 0.65);
+    height: 40rem;
+    background-color:transparent;
        
   }
   
@@ -87,4 +122,6 @@ body {
       margin-top: 7rem;
     }
   }
+
+  
   
