@@ -51,6 +51,10 @@ body {
     color: #fff;
     border: #fff 3px solid;
   }
+
+  .dark-border {
+    border-color: #1B1E22;
+  }
   
 
   
