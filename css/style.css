@@ -41,6 +41,16 @@ body {
   footer > p {
     margin: 0;
   }
+
+  .btn-outline-gray {
+    color: #fff;
+    border: #383B3F 1px solid;   
+  }
+
+  .btn-outline-gray:hover {
+    color: #fff;
+    border: #fff 3px solid;
+  }
   
 
   
@@ -120,6 +130,12 @@ body {
   @media (min-width: 62em) {
     .featurette-heading {
       margin-top: 7rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .btn-outline-gray {
+      display: none;
     }
   }
 
